@@ -123,12 +123,11 @@ func createIndexFile() (string, error) {
 	defer f.Close()
 	if err != nil {
 		return "file creation failed", err
-	} else {
-		_, err = f.Write([]byte(tmpW))
-		if err != nil {
-			return "file write failed", err
+	}
 
-		}
+	_, err = f.Write([]byte(tmpW))
+	if err != nil {
+		return "file write failed", err
 	}
 
 	return tmpW, nil
