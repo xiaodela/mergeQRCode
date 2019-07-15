@@ -127,6 +127,7 @@ func createIndexFile() (string, error) {
 		_, err = f.Write([]byte(tmpW))
 		if err != nil {
 			return "file write failed", err
+
 		}
 	}
 
