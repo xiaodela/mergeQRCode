@@ -16,3 +16,5 @@
 # 实现原理
 通过Zbar扫描二维码，然后用JavaScript实现跳转达到扫描二维码的效果
 跳转使用检测UA的方式实现检测平台
+# 打赏作者&结果测试
+![PayLink](https://github.com/sqlpxc/mergeQRCode/blob/master/QRCode.png?raw=true)
