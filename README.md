@@ -11,8 +11,8 @@
 - 需要把Zbar的根目录添加到Path中
 - Zbar的二进制文件路径设置在pay.go的第14行，如有需要请更改
 - 生成的index.html需要部署在**HTTP服务器**中,否则无效
-- 微信默认保存二维码文件位置:\内部存储设备\tencent\MicroMsg\WeiXin
-- 支付宝默认保存二维码位置:\内部存储设备\DCIM\Camera
+- 微信默认保存二维码文件位置:`\内部存储设备\tencent\MicroMsg\WeiXin`
+- 支付宝默认保存二维码位置:`\内部存储设备\DCIM\Camera`
 # 实现原理
 通过Zbar扫描二维码，然后用JavaScript实现跳转达到扫描二维码的效果
 跳转使用检测UA的方式实现检测平台
